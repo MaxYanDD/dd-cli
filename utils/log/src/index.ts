@@ -6,6 +6,6 @@ import * as log from "npmlog";
 // 自定义log样式
 // log.heading = "dd-cli";
 // log.headingStyle = { fg: "red", bg: "white" };
-log.addLevel("sucess", 2001, { fg: "green" });
-
+log.addLevel("sucess", 2001, { fg: "yellow" });
+console.log("hahhaahah");
 export default log;

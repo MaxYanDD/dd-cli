@@ -13,7 +13,8 @@
     // TODO: Emit test files to outDir
     "noEmitOnError": false,
     "skipLibCheck": true,
-    "declaration": true
+    "declaration": true,
+    "watch": true
   },
   "exclude": ["dist", "node_modules", "test"]
 }

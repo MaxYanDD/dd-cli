@@ -25,7 +25,11 @@
     "url": "git@gitee.com:maxyandd/dd-cli.git"
   },
   "scripts": {
-    "build": "tsc --build"
+    "dev": "npm run clean && tsc --build --watch",
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf ./dist && rm -rf tsconfig.build.tsbuildinfo",
+    "compile": "tsc --build",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "npmlog": "^4.1.2"
