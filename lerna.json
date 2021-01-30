@@ -1,13 +1,21 @@
 {
-  "packages": ["commands/*", "core/*", "utils/*"],
+  "packages": [
+    "commands/*",
+    "core/*",
+    "utils/*"
+  ],
   "command": {
     "bootstrap": {
       "hoist": true,
       "noCi": true,
-      "npmClientArgs": ["--no-package-lock"]
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
     },
     "publish": {
-      "ignoreChanges": ["*.md"]
+      "ignoreChanges": [
+        "*.md"
+      ]
     },
     "version": {
       "conventionalCommits": true,
@@ -15,5 +23,5 @@
     }
   },
   "npmClient": "npm",
-  "version": "1.0.0"
+  "version": "1.0.10"
 }

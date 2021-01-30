@@ -1,6 +1,6 @@
 {
   "name": "@dd-cli/core",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "dd-cli/core cli",
   "author": "YDD <792196835@qq.com>",
   "homepage": "",
@@ -29,7 +29,7 @@
     "build": "tsc --build"
   },
   "dependencies": {
-    "@dd-cli/log": "^1.0.9",
+    "@dd-cli/log": "^1.0.10",
     "import-local": "^3.0.2"
   },
   "gitHead": "e66299effdf5fbc4331df640ba589869446bc721",
