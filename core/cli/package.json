@@ -1,6 +1,6 @@
 {
   "name": "@dd-cli/core",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "dd-cli/core cli",
   "author": "YDD <792196835@qq.com>",
   "homepage": "",
@@ -33,7 +33,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@dd-cli/log": "^1.0.11",
+    "@dd-cli/log": "^1.0.12",
     "colors": "^1.4.0",
     "import-local": "^3.0.2",
     "semver": "^7.3.4"
