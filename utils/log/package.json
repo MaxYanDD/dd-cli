@@ -1,0 +1,40 @@
+{
+  "name": "@dd-cli/log",
+  "version": "1.0.9",
+  "description": "help log",
+  "keywords": [
+    "log"
+  ],
+  "author": "YDD <792196835@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index",
+  "types": "lib/index",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:maxyandd/dd-cli.git"
+  },
+  "scripts": {
+    "build": "yarn run clean && yarn run compile",
+    "clean": "rimraf -rf ./lib",
+    "compile": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "yarn run build",
+    "test": "yarn run build"
+  },
+  "dependencies": {
+    "npmlog": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/npmlog": "^4.1.2"
+  }
+}
