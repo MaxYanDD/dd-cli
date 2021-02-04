@@ -1,23 +1,16 @@
 {
-  "packages": [
-    "commands/*",
-    "core/*",
-    "utils/*"
-  ],
+  "packages": ["commands/*", "core/*", "utils/*"],
   "command": {
     "bootstrap": {
       "hoist": true,
       "noCi": true,
-      "npmClientArgs": [
-        "--no-package-lock"
-      ]
+      "npmClientArgs": ["--no-package-lock"]
     },
     "publish": {
-      "ignoreChanges": [
-        "*.md"
-      ]
+      "ignoreChanges": ["*.md"]
     }
   },
-  "npmClient": "npm",
-  "version": "1.0.12"
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "version": "0.0.1"
 }
