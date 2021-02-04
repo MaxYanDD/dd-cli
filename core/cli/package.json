@@ -1,6 +1,6 @@
 {
   "name": "@dd-cli/core",
-  "version": "1.0.12",
+  "version": "2.0.0",
   "description": "dd-cli/core cli",
   "author": "YDD <792196835@qq.com>",
   "homepage": "",
@@ -32,7 +32,7 @@
     "prepublishOnly": "npm run clean && tsc --build"
   },
   "dependencies": {
-    "@dd-cli/log": "^1.0.12",
+    "@dd-cli/log": "^2.0.0",
     "colors": "^1.4.0",
     "dot-env": "^0.0.1",
     "dotenv": "^8.2.0",
